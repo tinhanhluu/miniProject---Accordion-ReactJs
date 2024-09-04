@@ -1,0 +1,44 @@
+.wrapper {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: azure;
+  margin-top: 15%;
+}
+
+.wrapper button {
+  height: 40px;
+  width: 300px;
+  font-size: 15px;
+  background-color: rgb(102, 70, 14);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(102, 70, 14);
+  margin: 10px 0;
+  width: 500px;
+  padding: 0 10px;
+}
+
+.container .overDesc {
+  color: rgb(242, 242, 208);
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  background-color: rgb(102, 70, 14);
+  width: 500px;
+  padding: 0 10px 10px;
+  margin-top: -10px;
+}
